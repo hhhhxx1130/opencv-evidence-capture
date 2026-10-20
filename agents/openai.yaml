@@ -1,0 +1,3 @@
+interface:
+  display_name: "OpenCV Evidence Capture"
+  short_description: "Explainable offline frame analysis and visual evidence export"
