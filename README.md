@@ -12,6 +12,17 @@ A small, offline visual-analysis skill for images and video. It samples frames, 
 
 It does not identify people, infer emotions, or make decisions about a person's behavior. See `references/privacy.md`.
 
+## Install as a Codex skill
+
+Clone the repository directly into the Codex skills directory:
+
+```powershell
+$dest = Join-Path $env:USERPROFILE ".codex\skills\opencv-evidence-capture"
+git clone https://github.com/hhhhxx1130/opencv-evidence-capture.git $dest
+```
+
+Codex discovers the skill from its `SKILL.md`. Python dependencies are installed separately because the skill analyzes local files rather than calling a hosted service.
+
 ## Install
 
 ```bash
